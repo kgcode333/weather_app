@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<title>Weather Api</title>
+<script src="js/main.js" defer></script>
+
+</head>
+<body>
+<div class="container">
+    
+    <div class="row">
+        <h1>Weather Genarator</h1>
+            <form action="#" method="get">
+                <label for="given"></label>
+                <input type="text" id="given-name" placeholder="Enter City">
+                <button class="btn btn-primary mx-3" onclick="getWeather()">Generate weather</button>
+
+            </form>
+            <div class="high-temp-head"><h2>High</h2></div>
+            <div class="body"><h3 id="high"></h3></div>
+
+
+            <div class="low-temp-head"><h2>Low</h2></div>
+            <div class="body"><h3 id="low"></h3></div>
+
+
+            <div class="fore-temp-head"><h2>Forecast</h2></div>
+            <div class="body"><h3 id="forecast"></h3></div>
+
+
+            <div class="humi-temp-head"><h2>Humidity</h2></div>
+     <!-- Api Section  -->
+   <section class ="list-group text-center weather-list"></section>
+    <div class="row weather-group"></div>
+    
+</div> 
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html> 
+
